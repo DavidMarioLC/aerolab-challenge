@@ -39,17 +39,17 @@ declare module "styled-components" {
     };
     fontSize: {
       title: {
-        200: string;
-        96: string;
-        48: string;
-        32: string;
-        24: string;
+        xl: string;
+        lg: string;
+        md: string;
+        sm: string;
+        xs: string;
       };
       text: {
-        18: string;
-        16: string;
-        14: string;
-        12: string;
+        large: string;
+        md: string;
+        sm: string;
+        xs: string;
       };
     };
   }

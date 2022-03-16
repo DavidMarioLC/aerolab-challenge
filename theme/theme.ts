@@ -37,17 +37,17 @@ const aerolabTheme: DefaultTheme = {
   },
   fontSize: {
     title: {
-      200: "12.5rem",
-      96: "6rem",
-      48: "3rem",
-      32: "2rem",
-      24: "1.5rem",
+      xl: "12.5rem", //200px
+      lg: "6rem", //96px
+      md: "3rem", //48px
+      sm: "2rem", //32px
+      xs: "1.5rem", //24px
     },
     text: {
-      18: "1.125rem",
-      16: "1rem",
-      14: "0.875rem",
-      12: "0.75rem",
+      large: "1.125rem", //18px
+      md: "1rem", //16px
+      sm: "0.875rem", //14px
+      xs: "0.75rem", //12px
     },
   },
 };
