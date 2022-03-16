@@ -1,6 +1,11 @@
-import { RootHeader, HeaderContent } from "./StyledHeader";
+import {
+  RootHeader,
+  HeaderContent,
+  WrapperImageMobile,
+  WrapperImageDesktop,
+} from "./StyledHeader";
 import Image from "next/image";
-import { Wrapper, WrapperImage } from "../utility";
+import { Wrapper } from "../utility";
 import LogoMobile from "../../public/aerolab-isotipo.svg";
 import LogoDesktop from "../../public/aerolab-imagotipo.svg";
 
@@ -9,14 +14,20 @@ export const Header = () => {
     <RootHeader>
       <Wrapper>
         <HeaderContent>
-          <WrapperImage>
+          <WrapperImageMobile>
             <Image
               src={LogoMobile}
               alt="Logo de Aerolab"
               title="Logo de Aerolab"
             />
-          </WrapperImage>
-
+          </WrapperImageMobile>
+          <WrapperImageDesktop>
+            <Image
+              src={LogoDesktop}
+              alt="Logo de Aerolab"
+              title="Logo de Aerolab"
+            />
+          </WrapperImageDesktop>
           <p>Menu</p>
         </HeaderContent>
       </Wrapper>
